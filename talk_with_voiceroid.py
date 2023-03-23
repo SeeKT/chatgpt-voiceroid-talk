@@ -13,7 +13,7 @@ def main():
         openai.api_key = sys.argv[1]
         seikasay_path = sys.argv[2]
     except ValueError:
-        print('usage: python talk_with_voiceroid.py [your api key]')
+        print('usage: python talk_with_voiceroid.py [your api key] [exe path]')
     
     chattalk = []
     setting = input("Do you want to add some settings to ChatGPT? y/n \n")
