@@ -57,6 +57,9 @@ PS C:\> python talk_with_voiceroid.py [API key] [Path of SeikaSay2.exe]
 
 API key と exe ファイルのパスは、環境変数として追加しておくと楽です。
 
+### (4) 終了方法
+「終わります」と話したら処理が終了します。
+
 ## References
 - [ChatGPTのAPIをPythonから使う](https://fuji-pocketbook.net/chatgpt-api-python/)
 - [ChatGPT+Pythonでボイスロイドとリアルタイムで音声会話できるプログラムを作った](https://zenn.dev/akashixi/articles/303dd79264e1ff)
