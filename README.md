@@ -73,7 +73,7 @@ API key と exe ファイルのパスは、環境変数として追加してお�
 「終わります」と話したら処理が終了します。
 
 ## デモ動画
-<iframe src="https://www.youtube.com/embed/PZ-GPs_KCm0?enablejsapi=1" width="560" height="315" frameborder="0" allowfullscreen></iframe><br><a href="https://www.youtube.com/watch?v=PZ-GPs_KCm0">www.youtube.com</a>
+[![](https://img.youtube.com/vi/PZ-GPs_KCm0/0.jpg)](https://www.youtube.com/watch?v=PZ-GPs_KCm0)
 
 ## References
 - [ChatGPTのAPIをPythonから使う](https://fuji-pocketbook.net/chatgpt-api-python/)
