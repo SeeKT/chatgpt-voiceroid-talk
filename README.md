@@ -52,7 +52,18 @@ PS C:\> pip install -r requirements.txt
 ### (3) 実行方法
 
 ```
-PS C:\> python talk_with_voiceroid.py [API key] [Path of SeikaSay2.exe]
+usage: talk_with_voiceroid.py [-h] [-l HISTORY] api_key exe_path
+
+Talk with VOICEROID
+
+positional arguments:
+  api_key               OpenAI API key
+  exe_path              the path of exe file
+
+options:
+  -h, --help            show this help message and exit
+  -l HISTORY, --history HISTORY
+                        the path of chat history file
 ```
 
 API key と exe ファイルのパスは、環境変数として追加しておくと楽です。
