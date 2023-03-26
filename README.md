@@ -72,6 +72,9 @@ API key と exe ファイルのパスは、環境変数として追加してお�
 ### (4) 終了方法
 「終わります」と話したら処理が終了します。
 
+## デモ動画
+[![](https://img.youtube.com/vi/PZ-GPs_KCm0/0.jpg)](https://www.youtube.com/watch?v=PZ-GPs_KCm0)
+
 ## References
 - [ChatGPTのAPIをPythonから使う](https://fuji-pocketbook.net/chatgpt-api-python/)
 - [ChatGPT+Pythonでボイスロイドとリアルタイムで音声会話できるプログラムを作った](https://zenn.dev/akashixi/articles/303dd79264e1ff)
