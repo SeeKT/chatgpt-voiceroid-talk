@@ -1,6 +1,6 @@
 # chatgpt-voiceroid-talk
  
-ChatGPTを使ってVoiceRoidと会話したいと思い、作りました。
+ChatGPTを使ってVOICEROIDと会話したいと思い、作りました。
 
 ## 動作環境
 - Windows10 21H2
@@ -52,7 +52,7 @@ PS C:\> pip install -r requirements.txt
 ### (3) 実行方法
 
 ```
-usage: talk_with_voiceroid.py [-h] [-l HISTORY] api_key exe_path
+usage: talk_with_voiceroid.py [-h] [-l HISTORY] [-c CID] api_key exe_path
 
 Talk with VOICEROID
 
@@ -64,6 +64,7 @@ options:
   -h, --help            show this help message and exit
   -l HISTORY, --history HISTORY
                         the path of chat history file
+  -c CID, --cid CID     the cid of VOICEROID Software
 ```
 
 API key と exe ファイルのパスは、環境変数として追加しておくと楽です。

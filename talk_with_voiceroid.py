@@ -14,6 +14,7 @@ def main():
     parser.add_argument('api_key', help='OpenAI API key')
     parser.add_argument('exe_path', help='the path of exe file')
     parser.add_argument('-l', '--history', help='the path of chat history file')
+    parser.add_argument('-c', '--cid', default='1707', help='the cid of VOICEROID Software')
     
     args = parser.parse_args()
     openai.api_key = args.api_key 
@@ -58,7 +59,7 @@ def main():
                 print(f"You: {current_text}")
                 message = texttochatgpt._text_to_chatgpt(current_text)
                 print(f"ChatGPT: {message}")
-                TextToVoiceRoid._text_to_voiceroid(exe_path, message)
+                TextToVoiceRoid._text_to_voiceroid(exe_path, message, args.cid)
                 
 
 if __name__ == '__main__':
