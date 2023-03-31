@@ -1,3 +1,4 @@
 speechrecognition
 pyaudio
 openai
+simpleaudio
